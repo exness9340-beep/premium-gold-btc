@@ -21,10 +21,10 @@ from matplotlib.patches import FancyArrowPatch
 import io
 
 # CONFIG - Fill these in Railway Environment
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "your_bot_token_here")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8866765131:AAGiNggw5c2GGrqvluahjz_hn4HiN5UE2rM")
 TELEGRAM_CHANNEL   = os.environ.get("TELEGRAM_CHANNEL", "8867873147")
-TWELVE_DATA_KEY    = os.environ.get("TWELVE_DATA_API_KEY", "your_twelvedata_key_here")
-GOOGLE_SHEETS_URL  = os.environ.get("GOOGLE_SHEETS_URL", "https://script.google.com/macros/s/AKfycbwHL0wYdyUvh_eDRtJzgEn5BvZbOFWiDEUF_33TdsI7K7fWSxPnuzlVpLW00F6LJaDc/exec")
+TWELVE_DATA_KEY    = os.environ.get("TWELVE_DATA_API_KEY", "ca7ad424d4314e49b546cfab8811e326")
+GOOGLE_SHEETS_URL  = os.environ.get("GOOGLE_SHEETS_URL", "https://script.google.com/macros/s/AKfycbzfGrUdMxTM7kxJdIwxk7Ju1J6VM4-fxQzWqytcGUHmhfdUsmSC0GEZ3scc0Qh3Q1nElw/exec")
 
 IST = pytz.timezone("Asia/Kolkata")
 
